@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row: auto;
+        background-color: aquamarine;
+        padding: 50px;
+    }
+    img {
+
+        width: 200px;
+        transition: all 1s;
+        margin-left: -60px;
+        margin-right: -60px;
+
+    }
+    .img{
+        background-color: rgb(253, 185, 97);
+
+    }
+
+    .img:hover {
+
+    }
+    .img:hover img{
+        margin-left: -25px;
+        margin-right: -25px;
+
+    }
+</style>
+<body>
+    <div>
+        <div class="img">
+        <img src="pic/feedback/2.png" alt="imagem centro" style="background-color: rgb(80, 80, 92,0); padding: 0px;">
+        
+        <img src="pic/feedback/1.png" alt="imagem esq" style="background-color:  rgb(73, 50, 22,0); padding: 0px;">
+
+        <img src="pic/feedback/3.png" alt="imagem dir" style="background-color: rgb(253, 139, 0,0); padding: 0px;">
+         </div>
+    </div>
+</body>
+</html>
